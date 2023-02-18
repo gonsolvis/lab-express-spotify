@@ -1,0 +1,16 @@
+    
+    <body id="searchResultMain">
+<h2>Artist detail</h2>
+
+<div class="artists"></div> 
+    {{#each items}}
+    <article class="artistArticle"> 
+    <p>{{name}}</p>
+    <p><img src="{{images.0.url}}" alt="Artist Image">  </p>
+    <a href="/albums/{{id}}">View Albums</a> 
+    </article>
+    {{/each}}    
+</div>
+
+    </body>
+
